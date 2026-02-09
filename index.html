@@ -30,22 +30,14 @@
     #yes {
       background-color: #4CAF50;
       color: white;
-    }
-    #no {
-      background-color: #f44336;
-      color: white;
-      position: absolute;
-    }
-  </style>
-</head>
-<body>
 
 <div class="card">
   <h2>Hey Cutie 🥰</h2>
   <p>Will you be my Valentine? 💕</p>
   <button id="yes" onclick="yesClicked()">Yes 💖</button>
-  <script>
-    
+  <button id="no" onmouseover="moveNo()">No 😏</button>
+</div>
+<script>
   const noTexts = [
     "No 😏",
     "Don’t say no 🥺",
@@ -80,6 +72,3 @@
     `;
   }
 </script>
-</div>
-</body>
-</html>
